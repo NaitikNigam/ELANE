@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+     <!-- Here Footer Links Starts -->
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css'>
+     <link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+ 
+     <!-- Here Footer Links Ends -->
+
+    <title>Register</title>
+  </head>
+  <body>
+  <!-- Here Navbar Starts -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!-- <div class="container-fluid"> -->
+      <a class="navbar-brand" href="#"><img src="./image/Lane.png" alt="Logo" srcset="" style="height: 60px; width: 130px"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./index.html">HOME</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./men.html">MEN</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="./women.html">WOMEN</a>
+          </li>
+         
+          
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="/contact.html">CONTACT US</a>
+          </li>
+        </ul>
+        <form class="d-flex ms-auto">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+        </form>
+        <!-- <div class="card bg-dark text-light cart">
+          <i class="bi bi-cart3"></i>
+        </div>
+        <div class="card bg-dark text-light cart">
+          <i class="bi bi-person"></i>
+        </div> -->
+        <div class="ms-2">
+          <button class="btn btn-danger card bg-dark text-light  " data-toggle="modal" data-target="#loginModal"><a  href="/cart.html"><i class="bi bi-cart3 "></i></a></button>
+        </div>
+        <div class="ms-2">
+          <button class="btn btn-danger card bg-dark text-light active " data-toggle="modal" data-target="#signupModal"><a  href="/login.html"><i class="bi bi-person"></a></i></button>
+        </div> 
+      </div>
+    </div>
+  </nav> 
+
+  <!-- Here Navbar Ends -->
+
+  
+
+  <!-- Here Registration Page Starts -->
+  <section class="py-3" style="background-color: #eee;">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-12 col-xl-11">
+          <div class="card text-black" style="border-radius: 25px;">
+            <div class="card-body p-md-5">
+              <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+  
+                  <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+  
+                  <form class="mx-1 mx-md-4">
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <!-- <i class="fas fa-user fa-lg me-3 fa-fw "></i> -->
+                      <div class="form-outline flex-fill mb-0 ">
+                        <label class="form-label" for="form3Example1c">Your Name</label>
+                        <input type="text" id="form3Example1c" class="form-control" />
+                      </div>
+                    </div>
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+
+                            <!-- <i class="fas fa-envelope fa-lg me-3 fa-fw  "></i> -->
+
+                      <div class="form-outline flex-fill mb-0">
+                        <label class="form-label" for="form3Example3c">Your Email</label>
+                        <input type="email" id="form3Example3c" class="form-control" />
+                      </div>
+                    </div>
+
+                    <div class="form-outline">
+                      <label class="form-label" for="typeNumber">Your Mobile Number</label>
+                        <input type="number" id="typeNumber" class="form-control" />
+                    </div>
+                    
+                    
+
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Address</label>
+                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    
+                    
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <!-- <i class="fas fa-lock fa-lg me-3 fa-fw"></i> -->
+                      <div class="form-outline flex-fill mb-0">
+                        <label class="form-label" for="form3Example4c">Password</label>
+                        <input type="password" id="form3Example4c" class="form-control" />
+                      </div>
+                    </div>
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <!-- <i class="fas fa-key fa-lg me-3 fa-fw"></i> -->
+                      <div class="form-outline flex-fill mb-0">
+                        <label class="form-label" for="form3Example4cd">Repeat your password</label>
+                        <input type="password" id="form3Example4cd" class="form-control" />
+                      </div>
+                    </div>
+  
+                    
+  
+                    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+                      <button type="button" class="btn btn-dark btn-block btn-lg">Register</button>
+                    </div>
+  
+                  </form>
+  
+                </div>
+                <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+  
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                  
+                    class="img-fluid" alt="Sample image">
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Here Registration Page Ends-->
+
+    <!-- Here Footer Starts -->
+    <footer id="footer" class="footer-1">
+      <div class="main-footer widgets-dark typo-light">
+      <div class="container">
+      <div class="row">
+      
+        <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="widget subscribe no-box">
+      <h5 class="widget-title">E-Lane<span></span> 
+      </h5>
+  
+      <p>🌟 Elevate Your Wardrobe with Fashion Finesse! 🌟</p>
+      <p>At <span style="color :yellow" >E-Lane</span> fashion isn't just a choice; it's a lifestyle. Embrace the joy of dressing and let your style speak volumes. Ready to redefine your wardrobe? Start shopping now and let the world be your runway!</p>
+      </div>
+      </div>
+      
+        
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="widget no-box">
+      <h5 class="widget-title">Quick Links<span></span></h5>
+      <ul class="thumbnail-widget">
+      <li>
+      <div class="thumb-content"><a href="./index.html">&nbsp;Home</a></div> 
+      </li>
+      <li>
+      <div class="thumb-content"><a href="./men.html">&nbsp;Men's Clothes</a></div> 
+      </li>
+      <li>
+        <div class="thumb-content"><a href="./women.html">&nbsp;Women's Clothes</a></div> 
+        </li>
+      <li>
+       
+          <li>
+            <div class="thumb-content"><a href="./contact.html">&nbsp;Contact Us</a></div> 
+            </li>
+            <li>
+              <div class="thumb-content"><a href="./cart.html">&nbsp;Cart</a></div> 
+              </li>
+              <li>
+                <div class="thumb-content"><a href="./login.html">&nbsp;Login</a></div> 
+                </li>
+                <li>
+                  <div class="thumb-content"><a href="./register.html">&nbsp;Register</a></div> 
+                  </li>
+      </ul>
+      </div>
+      </div>
+      
+        
+      
+            <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="widget no-box">
+      <h5 class="widget-title">Contact Us<span></span></h5>
+                  
+                  
+  
+                  <a href="https://instagram.com/naitik_nigam_?igshid=NzZlODBkYWE4Ng=="> <i class="bi bi-instagram"></i> </a>
+                    <a href="https://www.linkedin.com/in/naitik-nigam-5261b6214"> <i class="bi bi-linkedin"></i> </a>
+                    <a href="https://github.com/NaitikNigam"> <i class="bi bi-github"></i> </a>
+                    
+                    <div >
+                    </div>
+                    <div style="margin-top: 10px; "><a href="tel:+917651890197"><i class="bi bi-telephone-fill"></i>+91-7651890197</a></div>
+                    <div style="margin-top: 8px;" ><a href="mailto:naitiknigam1008@gmail.com"><i class="bi bi-envelope"></i>naitiknigam1008@gmail.com</a></div>
+                    <div style="margin-top: 8px;" ><a href="https://maps.app.goo.gl/Wq8bcnBgHxuRXEVV9"><i class="bi bi-geo-alt-fill"></i>Faizabad Road, Lucknow</a></div>
+  
+  
+                    
+                      
+  
+  
+  
+      </div>
+      </div>
+      <br>
+        <br>
+      
+      
+      <div class="col-xs-12 col-sm-6 col-md-3">
+      <div class="widget no-box">
+      <h5 class="widget-title">Newslater<span></span></h5>
+                  <p>Subscribe for latest updates----</p>
+        <div class="emailfield">
+      <input type="text" name="email" value="" placeholder="Enter Your Email ID" >
+      <input name="uri" type="hidden" value="arabiantheme">
+      <input name="loc" type="hidden" value="en_US">
+      <input class="submitbutton ripplelink" type="submit" value="Subscribe">
+      </form>  
+      </div>
+      </div>
+      
+      </div>
+      </div>
+      </div>
+        
+      <div class="footer-copyright">
+      <div class="container">
+      <div class="row">
+      <div class="col-md-12 text-center">
+      <p>Copyright Design <span style="color:yellow" >E-Lane </span>© 2024. All rights reserved.</p>
+      </div>
+      </div>
+      </div>
+      </div>
+      </footer> 
+    <!-- Here Footer Ends-->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
