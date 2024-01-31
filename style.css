@@ -341,7 +341,7 @@ iframe {
 }
 #tt{
 
-    background-image: url("image/c1.jpg");
+    background-image: url("c1.jpg");
 }
 
 .masthead {
@@ -488,7 +488,7 @@ iframe {
 
 /* men page css starts */
 #mm{
-    background-image: url("image/m1.jpg");
+    background-image: url("m1.jpg");
 }
 
 /* men page css ends */
@@ -497,7 +497,7 @@ iframe {
 /* women page css starts */
 #ww{
     /* background-image: url("image/womenfashion2\ -\ Copy.jpg"); */
-    background-image: url("image/w1.jpg");
+    background-image: url("w1.jpg");
       
 }
 h1:hover{
@@ -517,12 +517,12 @@ h1:hover{
 
 }
 .home .home-banner-1{
-    background-image: url("image/banner1.jpg");
+    background-image: url("banner1.jpg");
 }
 
 
 .home .home-banner-2 {
-    background-image: url("image/carousel1.jpg");
+    background-image: url("carousel1.jpg");
 }
 .home .home-banner .home-banner-text{
     position: absolute;
