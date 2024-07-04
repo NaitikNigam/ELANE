@@ -1,4 +1,2 @@
 # ELANE
-This is a shopping
-<br>
-website
+This is a shopping<br>website
